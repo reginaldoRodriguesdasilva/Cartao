@@ -3,21 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+#borda{
+    margin: 40px;
+    width: 470px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid red;
+    background-color: rgba(0, 255, 255, 0.253);
+}
 .container{
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 100px;
+    
 }
 #principal h2{
     color: blue;
     text-align: center;
     font-size: 24px;
 }
-.row{
-    display: flex;
-    flex-wrap:wrap;
-}
+
 #principal{
     
     color: red;
@@ -25,23 +31,31 @@
     text-align: center;
     margin: auto;
     
+    
 }
 
 #menu-principal{
     
     display: flex;
-    justify-content: center;
+    justify-content:center;
     width: 95%;   
-    font-size: 16px;
+    font-size: 18px;
+    text-align: left;
+    
   
 }
-
+#notebook{
+    padding-left: 25px;
+    
+}
 
 #menu-principal ul{
     display: flex;
     padding-bottom: 1rem;
+    text-align: left;
+    list-style: none;
 }
- 
+
 #rodape{
     
     display: flex;
@@ -49,8 +63,7 @@
     color: red;
     text-align:left;
     margin: auto;
-    width: 40%; 
-    
+    width: 90%; 
 }
 
 
