@@ -30,18 +30,13 @@
 #menu-principal{
     
     display: flex;
-    justify-content: center;
+    justify-content:center;
     width: 95%;   
     font-size: 16px;
+    text-align: left;
   
 }
 
-
-#menu-principal ul{
-    display: flex;
-    padding-bottom: 1rem;
-}
- 
 #rodape{
     
     display: flex;
@@ -50,7 +45,6 @@
     text-align:left;
     margin: auto;
     width: 40%; 
-    
 }
 
 
