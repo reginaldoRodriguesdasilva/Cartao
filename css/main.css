@@ -3,6 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+#borda{
+    margin: 40px;
+    background-color: aquamarine;
+    width: 470px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid red;
+
+   
+}
 .container{
     display: flex;
     justify-content: center;
@@ -14,10 +24,7 @@
     text-align: center;
     font-size: 24px;
 }
-.row{
-    display: flex;
-    flex-wrap:wrap;
-}
+
 #principal{
     
     color: red;
@@ -33,13 +40,20 @@
     justify-content: center;
     width: 95%;   
     font-size: 16px;
-  
+ 
 }
+
+#notebook{
+   padding-left: 25px;
+}
+
 
 
 #menu-principal ul{
     display: flex;
     padding-bottom: 1rem;
+    text-align: left;
+   
 }
  
 #rodape{
@@ -49,7 +63,7 @@
     color: red;
     text-align:left;
     margin: auto;
-    width: 40%; 
+    width: 80%; 
     
 }
 
