@@ -4,7 +4,8 @@ var filesToCache = [
     './manifest.webmanifest',
     './index.html',
     './css/main.css',
-    './js/main.js'
+    './js/main.js',
+    './js/notificacao.js'
 ];
 
 
